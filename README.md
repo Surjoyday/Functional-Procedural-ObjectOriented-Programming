@@ -1,3 +1,8 @@
-# OOP
+### Object-Oriented Programming (OOP)
+- **Data and related functions (methods)** are bundled together inside **objects**.
 
-- In object-oriented programming (OOP), we organize code into distinct entities called classes or objects. Each entity is designed to serve a specific purpose and encapsulates both data and behavior related to that purpose. This approach helps in managing complexity by promoting modularity, reusability, and maintainability.
+### Procedural Programming (PP)
+- **Functions and data** are separate, with functions acting on data passed to them.
+
+### Functional Programming (FP)
+- **Functions operate on data**, but the focus is on using **pure functions** that return new data without modifying the original.
