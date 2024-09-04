@@ -3,6 +3,8 @@ class Validator {
   static MIN_LENGTH = "MIN_LENGTH";
   // Static methods can be accessed only through the Class name and can be used withoud creating an instance
   static validate(value, flag, validatorValue) {
+    // The "this" keyword inside a static method refers to the class itself. This is because classes in JavaScript are essentially functions, and functions are instances of the Function constructor. Therefore, "this" in a static method points to the class, allowing access to static properties and methods of the class.
+
     if (flag === this.REQUIRED) {
       return value.trim().length > 0;
     }
